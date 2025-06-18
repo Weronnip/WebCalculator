@@ -1,0 +1,139 @@
+.container {
+    width: 100vw;
+    padding: 4%;
+    margin: 0%;
+    display: flex;
+    flex-direction: row;
+}
+
+.title {
+    font-size: 1rem;
+}
+
+.nav_item {
+    left: 25%;
+    position: relative;
+}
+
+.items {
+    list-style-type: none;
+}
+
+.item {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.link {
+    text-decoration: none;
+}
+
+
+.icon {
+    position: absolute;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .nav_item {
+        left: 25%;
+        position: relative;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+    .container {
+        padding: 5% 10%;
+    }
+
+    .title {
+        font-size: 1.2rem;
+    }
+
+    .bth, .link {
+        font-size: 1.4rem;
+    }
+
+    .item {
+        padding: 5% 0;
+    }
+
+}
+@media (min-width: 426px) and (max-width: 768px) {
+    .container {
+        display: flex;
+        padding: 6% 20%;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bth, .link {
+        font-size: 1.6rem;
+    }
+
+    .item {
+        padding-left: 2%;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+    .container {
+        display: flex;
+        padding: 6% 20%;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .link
+
+    .bth {
+        font-size: 1.8rem;
+    }
+
+    .item {
+        cursor: pointer;
+        padding-left: 2%;
+        font-size: 1.6rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        display: flex;
+        padding: 6% 20%;
+        align-items: center;
+    }
+
+    .items {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bth {
+        font-size: 2rem;
+    }
+
+    .item {
+        cursor: pointer;
+        padding-left: 2%;
+        font-size: 1.6rem;
+    }
+
+    .title {
+        font-size: 1.6rem;
+    }
+}
